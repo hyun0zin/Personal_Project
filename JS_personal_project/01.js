@@ -1,5 +1,4 @@
-function getMoive(){
-  const options = {
+const options = {
     method: 'GET',
     headers: {
         accept: 'application/json',
@@ -14,4 +13,5 @@ fetch(
     .then((response) => response.json())
     .then((response) => {console.log(response)})
     .catch((err) => console.error(err));
-}
+    
+// title(제목), overview(내용 요약), poster_path(포스터 이미지 경로), vote_average(평점)
