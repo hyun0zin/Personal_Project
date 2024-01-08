@@ -24,8 +24,16 @@ fetch(
         const overview = data['overview'];
         const voteAver = data['vote_average'];
         const idNum = data['id'];
-        console.log(idNum); 
-        // data 각각 불러오기 성공. 그 다음은? -> html 요소로 카드 생성하기?
+        // console.log(idNum); 
+        // data 각각 불러오기 성공. 그 다음은? -> html 요소로 카드 생성하기? 
+        // document.createElement(tagName) : 새로운 HTML 요소를 생성
+        
+        const card = document.createElement('div');
+        const imgElement = document.createElement('img');
+        const titleElement = document.createElement('h2');
+        const overviewElement = document.createElement('h4');
+        
+
       })
     })
     .catch((err) => console.error(err));
