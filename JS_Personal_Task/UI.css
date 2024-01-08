@@ -1,0 +1,35 @@
+.myHead {
+  background-color: #ffc5c5;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #ffebd8;
+}
+
+.mySearch {
+  background-color: #89b9ad;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mySearch > button {
+  margin: 0px 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+}
