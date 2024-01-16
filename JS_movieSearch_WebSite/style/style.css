@@ -1,0 +1,49 @@
+header {
+  background-color: #ffc5c5;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #ffebd8;
+}
+
+form {
+  background-color: #89b9ad;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+form > button {
+  margin: 0px 10px;
+}
+
+#card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+}
+
+.movieCards {
+  background-color: aliceblue;
+
+  width: 300px;
+
+  margin: 10px auto 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.movieCards img {
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
